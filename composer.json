@@ -1,13 +1,6 @@
 {
     "name": "phpexperts/chatgpt-speaker",
     "description": "A quick and easy extension for effortlessly handling OpenAI's API for ChatGPT.",
-    "repositories": [
-        {
-            "name" : "phpexperts/chatgpt-speaker",
-            "type" : "path",
-            "url" : "/code/ChatGPTSpeaker"
-        }
-    ],
     "keywords": [
         "chatgpt",
         "openai",
