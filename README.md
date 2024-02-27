@@ -142,6 +142,17 @@ $rawReturn = (string)$chatGPT->api->getLastResponse()->getBody();
 phpunit
 ```
 
+# Roadmap
+
+* Implement the Models endpoint
+* Implement the Images endpoints
+* Implement the Files endpoint
+* Implement the Audio endpoints
+* Implement the new Embeddings endpoints for AI Model Training
+* Implement the new Fine Tunings Endpoints for custom GPT Agents
+* Implement the Moderations endpoint
+* Implement support for the GPT5 Agents
+
 # Contributors
 
 [Theodore R. Smith](https://www.phpexperts.pro/]) <theodore@phpexperts.pro>  
