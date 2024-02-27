@@ -1,0 +1,60 @@
+{
+    "name": "phpexperts/chatgpt-speaker",
+    "description": "A quick and easy extension for effortlessly handling OpenAI's API for ChatGPT.",
+    "repositories": [
+        {
+            "name" : "phpexperts/chatgpt-speaker",
+            "type" : "path",
+            "url" : "/code/ChatGPTSpeaker"
+        }
+    ],
+    "keywords": [
+        "chatgpt",
+        "openai",
+        "gpt",
+        "gpt4",
+        "api"
+    ],
+    "homepage": "https://www.phpexperts.pro/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Experts, Inc.",
+            "homepage": "https://www.phpexperts.pro/"
+        },
+        {
+            "name": "Theodore R. Smith",
+            "homepage": "https://www.linkedin.com/in/hopeseekr"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "phpexperts/rest-speaker": "^2.5",
+        "phpexperts/simple-dto": "^3.5"
+    },
+    "suggest": {
+        "phpexperts/laravel-env-polyfill": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.*|9.*",
+        "phpstan/phpstan": "*",
+        "symfony/var-dumper": "*",
+        "phpexperts/laravel-env-polyfill": "*",
+        "phpexperts/dockerize": "*",
+        "octoper/cuzzle": "^3.1",
+        "monolog/monolog": "^2.8"
+    },
+    "autoload": {
+        "psr-4": { "PHPExperts\\ChatGPTSpeaker\\" : "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "PHPExperts\\ChatGPTSpeaker\\Tests\\" : "tests/" }
+    },
+    "config": {
+        "allow-plugins": {
+            "0.0.0/composer-include-files": true
+        }
+    }
+}
