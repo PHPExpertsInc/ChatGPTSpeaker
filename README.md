@@ -8,6 +8,22 @@ ChatGPTSpeaker is a PHP Experts, Inc., Project meant to ease the accessing of th
 This library uses [RESTSpeaker](https://packagist.org/package/phpexperts/rest-speaker)
 to utilize the Guzzle HTTP Client via the Composition architectural pattern.
 
+You might be very interested in the projects that used by and/or adjacent to this project:
+
+* **PHP Evolver**
+    * `composer require phpexperts/evolver` 
+    * One of only two Genetic Algorithm (GA) libraries for PHP, but very easy to use.
+    * One of the few AI / Machine Learning libraries for PHP.
+    * https://github.com/PHPExpertsInc/php-evolver
+* **RESTSpeaker**
+    * `composer require phpexperts/rest-speaker`
+    * A very easy way to consume REST APIs. Built on top of Guzzle but with a much better interface.
+    * https://github.com/PHPExpertsInc/RESTSpeaker
+* **SimpleDTO**
+    * `composer require phpexperts/simple-dto`
+    * Easily build validating DTOs for PHP 7.2+.
+    * https://github.com/PHPExpertsInc/SimpleDTO
+
 ## Installation
 
 Via Composer
