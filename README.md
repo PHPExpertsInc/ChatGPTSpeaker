@@ -5,7 +5,7 @@
 
 ChatGPTSpeaker is a PHP Experts, Inc., Project meant to ease the accessing of the OpenAI APIs.
 
-This library uses [RESTSpeaker](https://packagist.org/package/phpexperts/rest-speaker)
+This library uses [RESTSpeaker](https://packagist.org/packages/phpexperts/rest-speaker)
 to utilize the Guzzle HTTP Client via the Composition architectural pattern.
 
 You might be very interested in the projects that used by and/or adjacent to this project:
